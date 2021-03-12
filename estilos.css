@@ -1,5 +1,55 @@
-#campo_nombre{
+@font-face{
+	font-family: fuente1;
+	src:url(CHICKENPie.ttf);
+}
 
+@font-face{
+	font-family: fuente2;
+	src:url(MantaStyleSans.ttf);
+}
 
-	
+@font-face{
+	font-family: fuente3;
+	src:url(Valentime.otf);
+}
+
+#Caja1{
+	background: #20DC12;
+	height: 100px;
+	width: 100px;
+	margin: 10px;
+	border: 2px solid #FB4512;
+	padding: 12px;
+	text-align: center;
+	font-family: cursive;
+	font-size: 15px;
+	border-radius: 60px;
+	font-family: fuente1;
+	text-decoration: underline;
+}
+
+#Caja2{
+	background: #0DB0F0;
+	height: 60px;
+	width: 100px;
+	margin: 10px;
+	border: 2px solid #F00D0D;
+	padding: 10px;
+	text-align: center;
+	font-size: 14px;
+	border-radius: 40px;
+	font-family: fuente2;
+}
+
+#Caja3{
+	background: #E1CE15;
+	height: 95px;
+	width: 95px;
+	margin: 10px;
+	border: 2px solid #FB4512;
+	padding: 10px;
+	text-align: center;
+	font-size: 25px;
+	border-radius: 50px;
+	font-family: fuente3;
 }
